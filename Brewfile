@@ -2,10 +2,13 @@ update
 
 upgrade
 
+install awscli
 install ansible
 install autoconf
 install automake
 install boost
+install boot2docker
+install docker
 install emacs --cocoa
 install freetype
 install gdbm
