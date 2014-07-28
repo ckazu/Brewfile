@@ -38,6 +38,7 @@ install redis
 install ruby-build
 install source-highlight
 install tree
+install terminal-notifier
 install wget
 install zsh
 install zsh-syntax-highlighting
