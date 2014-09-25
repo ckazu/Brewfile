@@ -46,6 +46,7 @@ install zsh-syntax-highlighting
 tap homebrew/binary
 install packer
 
+
 # brewcask
 tap phinze/homebrew-cask || true
 install brew-cask
@@ -72,7 +73,13 @@ cask install skype
 cask install slack
 cask install unity3d
 cask install vagrant
-cask install virtualbox
+# cask install virtualbox
+
+# R
+install gcc
+cask install xquartz
+tap homebrew/science
+install R
 
 # cleanup
 cleanup
