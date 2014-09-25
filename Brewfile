@@ -80,6 +80,7 @@ install gcc
 cask install xquartz
 tap homebrew/science
 install R
+cask install rstudio
 
 # cleanup
 cleanup
