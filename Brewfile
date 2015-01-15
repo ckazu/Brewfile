@@ -2,6 +2,8 @@ update
 
 upgrade
 
+tap homebrew/versions
+
 install awscli
 install ansible
 install autoconf
