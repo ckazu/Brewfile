@@ -10,11 +10,13 @@ install autoconf
 install automake
 install boost
 install boot2docker
+install cabal-install
 install docker
 install emacs --cocoa
 install freetype
 install gdbm
 install gettext
+install ghc
 install git
 install glib
 install graphviz
@@ -30,6 +32,7 @@ install mongodb
 install mysql
 install nvm
 install openssl
+install pandoc
 install pcre
 install pkg-config
 install rbenv
@@ -54,6 +57,7 @@ tap phinze/homebrew-cask || true
 install brew-cask
 
 cask install atom
+cask install basictex
 cask install blender
 cask install dropbox
 cask install evernote
