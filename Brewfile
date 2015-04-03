@@ -1,5 +1,6 @@
 tap 'homebrew/versions'
 
+brew 'ag'
 brew 'awscli'
 brew 'android-sdk'
 brew 'ansible'
