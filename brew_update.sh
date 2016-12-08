@@ -1,11 +1,12 @@
-echo brew update
-brew update
-echo brew cask update
-brew cask update
-echo brew upgrade
-brew upgrade
-echo brew brewdle
-brew brewdle
+#!/usr/bin/env bash
+set -e
 
+echo '= brew update'
+brew update
+
+echo '= brew upgrade'
+brew upgrade
+
+echo '= brew cleanup'
 brew cleanup
 brew cask cleanup
