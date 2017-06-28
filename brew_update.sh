@@ -2,11 +2,7 @@
 set -e
 
 echo '= brew update'
-brew update
-
-echo '= brew upgrade'
-brew upgrade
+brew bundle
 
 echo '= brew cleanup'
-brew cleanup
-brew cask cleanup
+brew bundle cleanup
