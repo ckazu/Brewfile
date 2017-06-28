@@ -5,4 +5,5 @@ echo '= brew update'
 brew bundle
 
 echo '= brew cleanup'
-brew bundle cleanup
+brew bundle cleanup --force
+brew cask cleanup
