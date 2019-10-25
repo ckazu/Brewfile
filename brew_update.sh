@@ -1,9 +1,6 @@
 #!/usr/bin/env bash
 set -e
+export HOMEBREW_INSTALL_CLEANUP=1
 
-echo '= brew update'
-brew bundle
-
-echo '= brew cleanup'
-brew bundle cleanup --force
-brew cask cleanup
+echo '= brew upgrade'
+brew upgrade
