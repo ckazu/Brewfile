@@ -1,13 +1,8 @@
-tap "caskroom/cask"
-tap "homebrew/binary"
 tap "homebrew/brewdler"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
-tap "homebrew/python"
-tap "homebrew/science"
 tap "homebrew/services"
-tap "homebrew/versions"
 brew "openssl"
 brew "readline", link: true
 brew "sqlite"
