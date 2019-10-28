@@ -1,13 +1,14 @@
 Brewfile
 ========
 
+## install
+
 ```sh
-$ brew update
-$ brew cask update
-$ brew upgrade
+$ ./brew_update.sh
+```
 
-$ brew brewdle
+## dump Brewfiles, commit and push to github repo
 
-$ brew cleanup
-$ brew cask cleanup
+```sh
+$ ./brew_dump.sh
 ```
