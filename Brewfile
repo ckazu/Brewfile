@@ -26,13 +26,12 @@ brew "graphviz"
 brew "libtool"
 brew "imagemagick"
 brew "jq"
-brew "usbmuxd", args: ["HEAD"]
 brew "libimobiledevice", args: ["HEAD"]
 brew "libressl"
+brew "libusbmuxd", args: ["HEAD"]
 brew "mysql", restart_service: true
 brew "nkf"
 brew "node"
-brew "openssl"
 brew "pandoc"
 brew "plantuml"
 brew "ruby-build"
@@ -56,6 +55,7 @@ cask "google-japanese-ime"
 cask "iterm2"
 cask "java"
 cask "karabiner-elements"
+cask "kindle"
 cask "licecap"
 cask "unity-hub"
 cask "visual-studio-code"
